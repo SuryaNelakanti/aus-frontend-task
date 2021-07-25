@@ -1,0 +1,85 @@
+:root{
+    --color-1: #191a1a;
+    --color-2: #001d3d;
+    --color-3: #003566;
+    --color-4: #ffc300;
+    --color-5: #ffd60a;
+}
+
+
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: var(--color-1);
+}
+nav{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.autocomplete {
+  /*the container must be positioned relative:*/
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+
+}
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 100px;
+  margin-left: 20px;
+  transition: 0.3s;
+
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin-left: 20px;
+
+}
+input[type=submit] {
+  background-color: var(--color-3);
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 40px;
+  transition: 0.3s;
+}
+.autocomplete-items {
+  transition: 0.3s;
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  background-color: #f1f1f1;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 30px;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid var(--color-5);
+  transition: 0.3s;
+
+}
+.autocomplete-items div:hover {
+  /*when hovering an item:*/
+  background-color: var(--color-5);
+  transition: 0.3s;
+
+}
+
+#map{
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 2px var(--color-2);
+}
