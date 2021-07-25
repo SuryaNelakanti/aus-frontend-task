@@ -40,7 +40,7 @@ GeoCoder to convert location data into GeoJSON coordinates.</br>
  However, the remaining steps are easy and would not take too long (maybe another hour or two of work is required).  </br>
  In lieu of this, here are the issues: </br>
  <b>High Priority:</b> </br>
- <->The batch geocoder GET request is sent in the wrong format, preventing the application from getting the multiple coordinates required for the mapping of Movie Shoot Locations.  </br>
+ <->The batch geocoder GET request is sent in the wrong format, preventing the application from getting the multiple coordinates required for the mapping of Movie Shoot Locations. This leads to wrong pointer location in map. </br>
  <->No seperation of front end and back end. I have done this entirely on HTML, CSS and JS. This application would greatly benefit from using a back end like expressJs, so that data handling is done better. </br>
  <->The private API key is publicly visible owing to the fact that i have done this entirely on the front end. This is a big security risk, and can be rectified easily, if there is a back-end framework used  </br>
   </br>
