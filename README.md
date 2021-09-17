@@ -1,19 +1,11 @@
 # aus-frontend-task </br>
 UUID: b8c06ce0-a501-44f5-9fd9-037986fc0eda </br>
 Link: https://suryanelakanti.github.io/aus-frontend-task/</br>
-<b>SDE 1 hiring task</b> </br>
 
-
-The task that I chose: </br>
 
 
 <b>SF Movies</b> </br> 
 
-
-
-Due to the fact that my exams are going on right now, I was unable to spend a lot of time on this task. (5 hours of work split over 2 days).
-Owing to that, I was unable to complete the task, and do not think it is production ready yet. However, given a couple more hours, I would be able to finish the task upto the requirements mentioned.
-</br>
 
 <b>Task Outline</b></br>
 
